@@ -12,29 +12,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="clock">
-            <span id="hour"></span>
-            <span id="minute"></span>
-            <span id="second"></span>
-        </div>
-        <div class="location">
-            <div id="city">
-                <h1></h1>
+        <div class="content">
+            <div class="clock">
+                <span id="hour"></span>
+                <span id="minute"></span>
             </div>
-            
-        </div>
-        <div class="weather">
-            <img id="weather-icon" src="" alt="">
-            <h1 class="temperature"></h1>
-            <h1 class="temp-unit"></h1>
+            <div class="location">
+                <div id="city"></div>
+            </div>
+            <div class="weather">
+                <div>
+                    <img id="weather-icon" src="" alt="">   
+                </div>
+                <div class="temperature-box">
+                    <h1 class="temperature"></h1>
+                    <h1 class="temp-unit"></h1> 
+                </div>
+            </div>
+            <div class="flavor">
+                <h2 class="flavor-text">loading...</h2>
+            </div>
+            <div class="unit-change-box">
+                <p>Switch to <span id="unit-change">&deg;F</span></p>
+            </div>
         </div>
         
-        <div class="flavor">
-            <h3 class="flavor-text">loading...</h3>
-        </div>
-        <div>
-            <p>Switch to <span id="unit-change">&deg;F</span></p>
-        </div>
     </div>
 
     <script src="app.js"></script>
