@@ -27,10 +27,8 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 0 auto;
     height: 100vh;
     width: 100%;
-    text-align: center;
 }
 
 .content {
@@ -38,8 +36,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 0 3rem;
+}
+
+.clock {
+    font-size: 5rem;
+}
+
+#city {
+    font-size: 6rem;
+    border-bottom: .2rem solid white;
 }
 
 .weather {
@@ -53,6 +59,12 @@ body {
     .weather {
         flex-direction: column;
     }
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+    color: white;
 }
 
 .temperature-box {
@@ -69,17 +81,6 @@ body {
     font-size: 4rem;
 }
 
-#city {
-    font-size: 6rem;
-    border-bottom: .2rem solid white;
-}
-
-img {
-    width: 20rem;
-    height: 20rem;
-    color: white;
-}
-
 .flavor {
     margin-bottom: 2rem;
 }
@@ -88,17 +89,11 @@ img {
     font-size: 2rem;
 }
 
-#unit-change {
-    cursor: pointer;
-    font-size: 3rem;
-}
-
-.clock {
-    font-size: 5rem;
-}
-
 .unit-change-box {
     margin-top: 1.5rem;
 }
 
-
+#unit-change {
+    cursor: pointer;
+    font-size: 3rem;
+}
